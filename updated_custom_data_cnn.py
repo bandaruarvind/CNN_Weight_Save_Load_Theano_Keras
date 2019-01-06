@@ -25,14 +25,14 @@ from keras.optimizers import SGD,RMSprop,adam
 
 PATH = os.getcwd()
 # Define data path
-data_path = PATH + '\\CNN_Owndata\\data'
+data_path = PATH + '\\data'
 #C:\Users\Arvind\CNN_basic\CNN_Owndata\data
 data_dir_list = os.listdir(data_path)
 
 img_rows=128
 img_cols=128
 num_channel=1
-num_epoch=20
+num_epoch=2
 
 # Define the number of classes
 num_classes = 4
